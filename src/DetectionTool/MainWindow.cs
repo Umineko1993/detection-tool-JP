@@ -18,7 +18,7 @@ namespace DetectionTool {
         if (results.Detected) {
           labelDetectedResult.Text = "YES";
           labelDetectedResult.ForeColor = Color.Red;
-          labelSummaryValue.Text = "Possible Malware traces were detected on your machine";
+          labelSummaryValue.Text = "お使いのマシンでマルウェアの痕跡が検出された可能性があります";
           labelFoundInStartupValue.Text = results.FoundInStartUp ? "YES" : "NO";
           labelFoundInStartupValue.ForeColor = results.FoundInStartUp ? Color.Red : Color.Green;
           textBoxSuspiciousFiles.Text = string.Join(Environment.NewLine, results.DetectedFiles);
@@ -29,15 +29,15 @@ namespace DetectionTool {
         } else {
           labelDetectedResult.Text = "NO";
           labelDetectedResult.ForeColor = Color.Green;
-          labelSummaryValue.Text = "Malware was not detected on your machine";
+          labelSummaryValue.Text = "お使いのマシンでマルウェアは検出されませんでした";
           labelFoundInStartupValue.Text = "NO";
           labelFoundInStartupValue.ForeColor = Color.Green;
         }
       } catch (Exception ex) {
         labelDetectedResult.Text = "Inconclusive";
         labelDetectedResult.ForeColor = Color.Orange;
-        labelSummaryValue.Text = $"Scan failed. {ex.Message}";
-        labelFoundInStartupValue.Text = "Inconclusive";
+        labelSummaryValue.Text = $"スキャン失敗 {ex.Message}";
+        labelFoundInStartupValue.Text = "不確定要素";
         labelFoundInStartupValue.ForeColor = Color.Orange;
       }
     }
@@ -45,5 +45,20 @@ namespace DetectionTool {
     private void linkLabelSupport_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
       System.Diagnostics.Process.Start("https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool");
     }
-  }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBoxScanResults_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainWindow_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
