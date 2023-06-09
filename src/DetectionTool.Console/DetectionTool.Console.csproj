@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<PublishSingleFile>true</PublishSingleFile>
@@ -12,18 +12,29 @@
 	<NeutralLanguage>ja-JP</NeutralLanguage>
 	<AssemblyVersion>2.0.1.0</AssemblyVersion>
 	<FileVersion>2.0.1.0</FileVersion>
-	<PackageId>DetectionTool.ConsoleJP</PackageId>
-	<Title>DetectionTool Console-JP</Title>
+	<PackageId>$(AssemblyName)</PackageId>
+	<Title>$(AssemblyName)</Title>
 	<Version>2.0.1.0</Version>
 	<Authors>Saso Utano</Authors>
 	<Company />
-	<Product>DetectionTool Console-JP</Product>
+	<Product>$(AssemblyName)</Product>
+	<AssemblyName>DetectionTool.Console</AssemblyName>
+	<Copyright>Saso Utano</Copyright>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<SupportedOSPlatformVersion>10.0.22621.0</SupportedOSPlatformVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Include="..\DetectionTool.Core\Constants.cs" Link="Constants.cs" />
     <Compile Include="..\DetectionTool.Core\Scanner.cs" Link="Scanner.cs" />
     <Compile Include="..\DetectionTool.Core\ScanResults.cs" Link="ScanResults.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
