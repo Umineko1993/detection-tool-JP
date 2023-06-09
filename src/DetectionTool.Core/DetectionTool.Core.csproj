@@ -1,7 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>DetectionTool.Core</AssemblyName>
+    <PlatformTarget>x64</PlatformTarget>
+    <Title>DetectionTool.Core-JP</Title>
+    <Version>2.0.1.0</Version>
+    <Authors>Saso Utano</Authors>
+    <Company />
+    <Product>DetectionTool.Core JP</Product>
+    <RepositoryUrl>https://github.com/Umineko1993/detection-tool-JP</RepositoryUrl>
+    <Copyright>Saso Utano</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <NeutralLanguage>ja-JP</NeutralLanguage>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
