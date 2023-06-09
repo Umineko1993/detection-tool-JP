@@ -56,7 +56,7 @@ namespace DetectionTool {
       this.buttonScan.Name = "buttonScan";
       this.buttonScan.Size = new System.Drawing.Size(99, 20);
       this.buttonScan.TabIndex = 0;
-      this.buttonScan.Text = "Scan";
+      this.buttonScan.Text = "スキャン";
       this.buttonScan.UseVisualStyleBackColor = true;
       this.buttonScan.Click += new System.EventHandler(this.buttonScan_Click);
       // 
@@ -71,7 +71,7 @@ namespace DetectionTool {
       this.groupBoxScanResults.Size = new System.Drawing.Size(672, 347);
       this.groupBoxScanResults.TabIndex = 1;
       this.groupBoxScanResults.TabStop = false;
-      this.groupBoxScanResults.Text = "Scan Results";
+      this.groupBoxScanResults.Text = "スキャン結果";
       // 
       // tableLayoutPanelResults
       // 
@@ -123,7 +123,7 @@ namespace DetectionTool {
       this.labelFoundInStartupValue.Name = "labelFoundInStartupValue";
       this.labelFoundInStartupValue.Size = new System.Drawing.Size(63, 20);
       this.labelFoundInStartupValue.TabIndex = 3;
-      this.labelFoundInStartupValue.Text = "Not Run";
+      this.labelFoundInStartupValue.Text = "未実施";
       // 
       // label6
       // 
@@ -134,7 +134,7 @@ namespace DetectionTool {
       this.label6.Name = "label6";
       this.label6.Size = new System.Drawing.Size(185, 20);
       this.label6.TabIndex = 2;
-      this.label6.Text = "Detected in Startup folder:";
+      this.label6.Text = "スタートアップフォルダで検出されました:";
       // 
       // label3
       // 
@@ -145,7 +145,7 @@ namespace DetectionTool {
       this.label3.Name = "label3";
       this.label3.Size = new System.Drawing.Size(63, 20);
       this.label3.TabIndex = 1;
-      this.label3.Text = "Not Run";
+      this.label3.Text = "未実施";
       // 
       // label4
       // 
@@ -156,7 +156,7 @@ namespace DetectionTool {
       this.label4.Name = "label4";
       this.label4.Size = new System.Drawing.Size(122, 20);
       this.label4.TabIndex = 0;
-      this.label4.Text = "Found in registry:";
+      this.label4.Text = "レジストリで検出されました:";
       // 
       // textBoxSuspiciousFiles
       // 
@@ -180,7 +180,7 @@ namespace DetectionTool {
       this.labelSuspiciousFiles.Name = "labelSuspiciousFiles";
       this.labelSuspiciousFiles.Size = new System.Drawing.Size(117, 20);
       this.labelSuspiciousFiles.TabIndex = 8;
-      this.labelSuspiciousFiles.Text = "Suspicious Files";
+      this.labelSuspiciousFiles.Text = "不審なファイル";
       this.labelSuspiciousFiles.Visible = false;
       // 
       // panelDetected
@@ -204,7 +204,7 @@ namespace DetectionTool {
       this.labelDetectedResult.Name = "labelDetectedResult";
       this.labelDetectedResult.Size = new System.Drawing.Size(63, 20);
       this.labelDetectedResult.TabIndex = 1;
-      this.labelDetectedResult.Text = "Not Run";
+      this.labelDetectedResult.Text = "未実施";
       // 
       // labelDetected
       // 
@@ -215,7 +215,7 @@ namespace DetectionTool {
       this.labelDetected.Name = "labelDetected";
       this.labelDetected.Size = new System.Drawing.Size(73, 20);
       this.labelDetected.TabIndex = 0;
-      this.labelDetected.Text = "Detected:";
+      this.labelDetected.Text = "検出:";
       // 
       // panel1
       // 
@@ -238,7 +238,7 @@ namespace DetectionTool {
       this.labelSummaryValue.Name = "labelSummaryValue";
       this.labelSummaryValue.Size = new System.Drawing.Size(63, 20);
       this.labelSummaryValue.TabIndex = 1;
-      this.labelSummaryValue.Text = "Not Run";
+      this.labelSummaryValue.Text = "未実施";
       // 
       // label2
       // 
@@ -249,7 +249,7 @@ namespace DetectionTool {
       this.label2.Name = "label2";
       this.label2.Size = new System.Drawing.Size(74, 20);
       this.label2.TabIndex = 0;
-      this.label2.Text = "Summary:";
+      this.label2.Text = "概要:";
       // 
       // linkLabelSupport
       // 
@@ -261,7 +261,7 @@ namespace DetectionTool {
       this.linkLabelSupport.Size = new System.Drawing.Size(322, 20);
       this.linkLabelSupport.TabIndex = 12;
       this.linkLabelSupport.TabStop = true;
-      this.linkLabelSupport.Text = "For instructions on what to do next click here";
+      this.linkLabelSupport.Text = "次に行うべき事については、こちらをご覧下さい";
       this.linkLabelSupport.Visible = false;
       this.linkLabelSupport.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelSupport_LinkClicked);
       // 
@@ -273,7 +273,7 @@ namespace DetectionTool {
       this.Controls.Add(this.groupBoxScanResults);
       this.Controls.Add(this.buttonScan);
       this.Name = "MainWindow";
-      this.Text = "Detection Tool";
+      this.Text = "Detection Tool-JP";
       this.groupBoxScanResults.ResumeLayout(false);
       this.tableLayoutPanelResults.ResumeLayout(false);
       this.tableLayoutPanelResults.PerformLayout();

@@ -19,7 +19,7 @@ namespace DetectionTool {
         if (results.Detected) {
           labelDetectedResult.Text = "YES";
           labelDetectedResult.ForeColor = Color.Red;
-          labelSummaryValue.Text = "Possible Malware traces were detected on your machine";
+          labelSummaryValue.Text = "マルウェアの痕跡が検出された可能性があります";
           labelFoundInStartupValue.Text = results.FoundInStartUp ? "YES" : "NO";
           labelFoundInStartupValue.ForeColor = results.FoundInStartUp ? Color.Red : Color.Green;
           textBoxSuspiciousFiles.Text = string.Join(Environment.NewLine, results.DetectedFiles);
@@ -30,15 +30,15 @@ namespace DetectionTool {
         } else {
           labelDetectedResult.Text = "NO";
           labelDetectedResult.ForeColor = Color.Green;
-          labelSummaryValue.Text = "Malware was not detected on your machine";
+          labelSummaryValue.Text = "マルウェアは検出されませんでした";
           labelFoundInStartupValue.Text = "NO";
           labelFoundInStartupValue.ForeColor = Color.Green;
         }
       } catch (Exception ex) {
         labelDetectedResult.Text = "Inconclusive";
         labelDetectedResult.ForeColor = Color.Orange;
-        labelSummaryValue.Text = $"Scan failed. {ex.Message}";
-        labelFoundInStartupValue.Text = "Inconclusive";
+        labelSummaryValue.Text = $"スキャンに失敗しました {ex.Message}";
+        labelFoundInStartupValue.Text = "不確定要素";
         labelFoundInStartupValue.ForeColor = Color.Orange;
       }
     }
