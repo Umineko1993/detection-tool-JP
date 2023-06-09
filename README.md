@@ -1,7 +1,7 @@
-# detection-tool
+# detection-tool-JP
 
-[–{‰Æ](https://github.com/overwolf/detection-tool)‚ğ“ú–{Œê‚É–|–ó‚µ‚Ä‚Ü‚·
+[æœ¬å®¶](https://github.com/overwolf/detection-tool)ã‚’æ—¥æœ¬èªã«ç¿»è¨³ã—ã¦ã¾ã™
 
-‚±‚Ìƒc[ƒ‹‚ÍA‚±‚ê‚ç‚Ìˆ«ˆÓ‚Ì‚ ‚éƒtƒ@ƒCƒ‹‚ğ’²¸‚µA‚»‚Ì“w—Í‚ğ[hackmd.io](https://hackmd.io/B46EYzKXSfWSF35DeCZz9A#Credits)‚Æ[fractureiser](https://github.com/fractureiser-investigation/fractureiser)‚ÅŒöŠJ‚µ‚Ä‚¢‚é’˜ÒƒRƒ~ƒ…ƒjƒeƒB‚Ì‘f°‚ç‚µ‚¢d–‚ÉˆË‘¶‚µ‚Ä‚¢‚Ü‚·
+ã“ã®ãƒ„ãƒ¼ãƒ«ã¯ã€ã“ã‚Œã‚‰ã®æ‚ªæ„ã®ã‚ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ã‚’èª¿æŸ»ã—ã€ãã®åŠªåŠ›ã‚’[hackmd.io](https://hackmd.io/B46EYzKXSfWSF35DeCZz9A#Credits)ã¨[fractureiser](https://github.com/fractureiser-investigation/fractureiser)ã§å…¬é–‹ã—ã¦ã„ã‚‹è‘—è€…ã‚³ãƒŸãƒ¥ãƒ‹ãƒ†ã‚£ã®ç´ æ™´ã‚‰ã—ã„ä»•äº‹ã«ä¾å­˜ã—ã¦ã„ã¾ã™
 
-‚±‚ÌƒAƒvƒŠƒP[ƒVƒ‡ƒ“Às‚É‚Íx64bit OS‚Æ[.NET Framework 4.8.1](https://dotnet.microsoft.com/ja-jp/download/dotnet-framework/net481) –”‚Í [.NET Framework 4.8](https://dotnet.microsoft.com/ja-jp/download/dotnet-framework/net48)‚ª•K—v‚Å‚·
+ã“ã®ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³å®Ÿè¡Œã«ã¯x64bit OSã¨[.NET Framework 4.8.1](https://dotnet.microsoft.com/ja-jp/download/dotnet-framework/net481) åˆã¯ [.NET Framework 4.8](https://dotnet.microsoft.com/ja-jp/download/dotnet-framework/net48)ãŒå¿…è¦ã§ã™
